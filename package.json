@@ -1,0 +1,6 @@
+{
+  "name": "angular-azure-blob-upload",
+  "version": "1.0.0",
+  "main": "./azure-blob-upload.js",
+  "repository": "https://github.com/aajadhav/angular-azure-blob-upload.git"
+}
