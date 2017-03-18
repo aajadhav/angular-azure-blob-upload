@@ -38,6 +38,7 @@
                             headers: {
                                 'x-ms-blob-type': 'BlockBlob',
                                 'Content-Type': state.file.type,
+                                'ignoreAuthorizationHeader': true
                             },
                             transformRequest: [],
                         }).then(function (response) {
@@ -147,7 +148,7 @@
             $http.put(uri, requestBody,
                 {
                     headers: {
-                        'x-ms-blob-content-type': state.file.type,
+                        'x-ms-blob-content-type': state.file.type,'ignoreAuthorizationHeader': true
                     }
                 }).then(function (response) {
                     $log.log(response.data);
