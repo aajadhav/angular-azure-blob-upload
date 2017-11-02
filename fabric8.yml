@@ -1,0 +1,11 @@
+---
+buildName: "angular-azure-blob-upload"
+links:
+  Git: "https://github.com/aajadhav/angular-azure-blob-upload.git"
+  Job: "http://172.30.169.100:31706/job/angular-azure-blob-upload"
+  Production: "http://10.0.0.132:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://10.0.0.132:80/kubernetes/pods?namespace=default-staging"
+environments:
+  Staging: "default-staging"
+  Production: "default-production"
+useLocalFlow: true
